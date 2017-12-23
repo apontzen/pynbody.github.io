@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# pynbody: 
 
-You can use the [editor on GitHub](https://github.com/apontzen/pynbody.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+[![Build Status](https://travis-ci.org/pynbody/pynbody.svg?branch=master)](https://travis-ci.org/pynbody/pynbody)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Pynbody is a light-weight,
+portable, format-transparent analysis framework for N-body and
+hydrodynamic astrophysical simulations supporting PKDGRAV/Gasoline,
+Gadget, N-Chilada, and RAMSES AMR outputs.
 
-### Markdown
+Written for python 2.7 or 3.4+, the core tools are accompanied by a library of
+publication-level analysis routines. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+To install, type
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```python
+pip install pynbody
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+or for the bleeding-edge version try
 
-### Jekyll Themes
+```python
+pip install git+https://github.com/pynbody/pynbody
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/apontzen/pynbody.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+If this fails, you may need some more detailed [installation
+instructions](http://pynbody.github.io/pynbody/installation.html). Once
+you have the package instlaled, try the introductory
+[tutorials](http://pynbody.github.io/pynbody/tutorials/tutorials.html).
 
-### Support or Contact
+The full documentation can be found
+[here](http://pynbody.github.io/pynbody/).
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Support and Contact 
+
+If you have trouble with Pynbody or you have feature
+requests/suggestions you can [submit an issue](https://github.com/pynbody/pynbody/issues).
